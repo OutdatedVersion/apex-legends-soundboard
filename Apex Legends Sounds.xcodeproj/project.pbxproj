@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B56931E1249D3D5100F2B994 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56931E0249D3D5100F2B994 /* AppDelegate.swift */; };
+		B56931E3249D3D5100F2B994 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56931E2249D3D5100F2B994 /* SceneDelegate.swift */; };
+		B56931E5249D3D5100F2B994 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56931E4249D3D5100F2B994 /* ContentView.swift */; };
+		B56931E7249D3D5300F2B994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56931E6249D3D5300F2B994 /* Assets.xcassets */; };
+		B56931EA249D3D5300F2B994 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56931E9249D3D5300F2B994 /* Preview Assets.xcassets */; };
+		B56931ED249D3D5300F2B994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56931EB249D3D5300F2B994 /* LaunchScreen.storyboard */; };
+		B56931F8249D3D5400F2B994 /* Apex_Legends_SoundsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56931F7249D3D5400F2B994 /* Apex_Legends_SoundsTests.swift */; };
+		B5693203249D3D5400F2B994 /* Apex_Legends_SoundsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5693202249D3D5400F2B994 /* Apex_Legends_SoundsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B56931F4249D3D5400F2B994 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B56931D5249D3D5100F2B994 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B56931DC249D3D5100F2B994;
+			remoteInfo = "Apex Legends Sounds";
+		};
+		B56931FF249D3D5400F2B994 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B56931D5249D3D5100F2B994 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B56931DC249D3D5100F2B994;
+			remoteInfo = "Apex Legends Sounds";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B56931DD249D3D5100F2B994 /* Apex Legends Sounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apex Legends Sounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56931E0249D3D5100F2B994 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B56931E2249D3D5100F2B994 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B56931E4249D3D5100F2B994 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B56931E6249D3D5300F2B994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B56931E9249D3D5300F2B994 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B56931EC249D3D5300F2B994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B56931EE249D3D5300F2B994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B56931F3249D3D5400F2B994 /* Apex Legends SoundsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apex Legends SoundsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56931F7249D3D5400F2B994 /* Apex_Legends_SoundsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apex_Legends_SoundsTests.swift; sourceTree = "<group>"; };
+		B56931F9249D3D5400F2B994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B56931FE249D3D5400F2B994 /* Apex Legends SoundsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apex Legends SoundsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5693202249D3D5400F2B994 /* Apex_Legends_SoundsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apex_Legends_SoundsUITests.swift; sourceTree = "<group>"; };
+		B5693204249D3D5400F2B994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B56931DA249D3D5100F2B994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56931F0249D3D5400F2B994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56931FB249D3D5400F2B994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B56931D4249D3D5100F2B994 = {
+			isa = PBXGroup;
+			children = (
+				B56931DF249D3D5100F2B994 /* Apex Legends Sounds */,
+				B56931F6249D3D5400F2B994 /* Apex Legends SoundsTests */,
+				B5693201249D3D5400F2B994 /* Apex Legends SoundsUITests */,
+				B56931DE249D3D5100F2B994 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B56931DE249D3D5100F2B994 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B56931DD249D3D5100F2B994 /* Apex Legends Sounds.app */,
+				B56931F3249D3D5400F2B994 /* Apex Legends SoundsTests.xctest */,
+				B56931FE249D3D5400F2B994 /* Apex Legends SoundsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B56931DF249D3D5100F2B994 /* Apex Legends Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B56931E0249D3D5100F2B994 /* AppDelegate.swift */,
+				B56931E2249D3D5100F2B994 /* SceneDelegate.swift */,
+				B56931E4249D3D5100F2B994 /* ContentView.swift */,
+				B56931E6249D3D5300F2B994 /* Assets.xcassets */,
+				B56931EB249D3D5300F2B994 /* LaunchScreen.storyboard */,
+				B56931EE249D3D5300F2B994 /* Info.plist */,
+				B56931E8249D3D5300F2B994 /* Preview Content */,
+			);
+			path = "Apex Legends Sounds";
+			sourceTree = "<group>";
+		};
+		B56931E8249D3D5300F2B994 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B56931E9249D3D5300F2B994 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B56931F6249D3D5400F2B994 /* Apex Legends SoundsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B56931F7249D3D5400F2B994 /* Apex_Legends_SoundsTests.swift */,
+				B56931F9249D3D5400F2B994 /* Info.plist */,
+			);
+			path = "Apex Legends SoundsTests";
+			sourceTree = "<group>";
+		};
+		B5693201249D3D5400F2B994 /* Apex Legends SoundsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5693202249D3D5400F2B994 /* Apex_Legends_SoundsUITests.swift */,
+				B5693204249D3D5400F2B994 /* Info.plist */,
+			);
+			path = "Apex Legends SoundsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B56931DC249D3D5100F2B994 /* Apex Legends Sounds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5693207249D3D5400F2B994 /* Build configuration list for PBXNativeTarget "Apex Legends Sounds" */;
+			buildPhases = (
+				B56931D9249D3D5100F2B994 /* Sources */,
+				B56931DA249D3D5100F2B994 /* Frameworks */,
+				B56931DB249D3D5100F2B994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Apex Legends Sounds";
+			productName = "Apex Legends Sounds";
+			productReference = B56931DD249D3D5100F2B994 /* Apex Legends Sounds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B56931F2249D3D5400F2B994 /* Apex Legends SoundsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B569320A249D3D5400F2B994 /* Build configuration list for PBXNativeTarget "Apex Legends SoundsTests" */;
+			buildPhases = (
+				B56931EF249D3D5400F2B994 /* Sources */,
+				B56931F0249D3D5400F2B994 /* Frameworks */,
+				B56931F1249D3D5400F2B994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B56931F5249D3D5400F2B994 /* PBXTargetDependency */,
+			);
+			name = "Apex Legends SoundsTests";
+			productName = "Apex Legends SoundsTests";
+			productReference = B56931F3249D3D5400F2B994 /* Apex Legends SoundsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B56931FD249D3D5400F2B994 /* Apex Legends SoundsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B569320D249D3D5400F2B994 /* Build configuration list for PBXNativeTarget "Apex Legends SoundsUITests" */;
+			buildPhases = (
+				B56931FA249D3D5400F2B994 /* Sources */,
+				B56931FB249D3D5400F2B994 /* Frameworks */,
+				B56931FC249D3D5400F2B994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5693200249D3D5400F2B994 /* PBXTargetDependency */,
+			);
+			name = "Apex Legends SoundsUITests";
+			productName = "Apex Legends SoundsUITests";
+			productReference = B56931FE249D3D5400F2B994 /* Apex Legends SoundsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B56931D5249D3D5100F2B994 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "outdatedversion LLC";
+				TargetAttributes = {
+					B56931DC249D3D5100F2B994 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					B56931F2249D3D5400F2B994 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = B56931DC249D3D5100F2B994;
+					};
+					B56931FD249D3D5400F2B994 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = B56931DC249D3D5100F2B994;
+					};
+				};
+			};
+			buildConfigurationList = B56931D8249D3D5100F2B994 /* Build configuration list for PBXProject "Apex Legends Sounds" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B56931D4249D3D5100F2B994;
+			productRefGroup = B56931DE249D3D5100F2B994 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B56931DC249D3D5100F2B994 /* Apex Legends Sounds */,
+				B56931F2249D3D5400F2B994 /* Apex Legends SoundsTests */,
+				B56931FD249D3D5400F2B994 /* Apex Legends SoundsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B56931DB249D3D5100F2B994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56931ED249D3D5300F2B994 /* LaunchScreen.storyboard in Resources */,
+				B56931EA249D3D5300F2B994 /* Preview Assets.xcassets in Resources */,
+				B56931E7249D3D5300F2B994 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56931F1249D3D5400F2B994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56931FC249D3D5400F2B994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B56931D9249D3D5100F2B994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56931E1249D3D5100F2B994 /* AppDelegate.swift in Sources */,
+				B56931E3249D3D5100F2B994 /* SceneDelegate.swift in Sources */,
+				B56931E5249D3D5100F2B994 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56931EF249D3D5400F2B994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56931F8249D3D5400F2B994 /* Apex_Legends_SoundsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56931FA249D3D5400F2B994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5693203249D3D5400F2B994 /* Apex_Legends_SoundsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B56931F5249D3D5400F2B994 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B56931DC249D3D5100F2B994 /* Apex Legends Sounds */;
+			targetProxy = B56931F4249D3D5400F2B994 /* PBXContainerItemProxy */;
+		};
+		B5693200249D3D5400F2B994 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B56931DC249D3D5100F2B994 /* Apex Legends Sounds */;
+			targetProxy = B56931FF249D3D5400F2B994 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B56931EB249D3D5300F2B994 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B56931EC249D3D5300F2B994 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5693205249D3D5400F2B994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5693206249D3D5400F2B994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5693208249D3D5400F2B994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Apex Legends Sounds/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Q6TF2ZU97;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Apex Legends Sounds/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.outdatedversion.Apex-Legends-Sounds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5693209249D3D5400F2B994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Apex Legends Sounds/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Q6TF2ZU97;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Apex Legends Sounds/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.outdatedversion.Apex-Legends-Sounds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B569320B249D3D5400F2B994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Q6TF2ZU97;
+				INFOPLIST_FILE = "Apex Legends SoundsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.outdatedversion.Apex-Legends-SoundsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apex Legends Sounds.app/Apex Legends Sounds";
+			};
+			name = Debug;
+		};
+		B569320C249D3D5400F2B994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Q6TF2ZU97;
+				INFOPLIST_FILE = "Apex Legends SoundsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.outdatedversion.Apex-Legends-SoundsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apex Legends Sounds.app/Apex Legends Sounds";
+			};
+			name = Release;
+		};
+		B569320E249D3D5400F2B994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Q6TF2ZU97;
+				INFOPLIST_FILE = "Apex Legends SoundsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.outdatedversion.Apex-Legends-SoundsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Apex Legends Sounds";
+			};
+			name = Debug;
+		};
+		B569320F249D3D5400F2B994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Q6TF2ZU97;
+				INFOPLIST_FILE = "Apex Legends SoundsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.outdatedversion.Apex-Legends-SoundsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Apex Legends Sounds";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B56931D8249D3D5100F2B994 /* Build configuration list for PBXProject "Apex Legends Sounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5693205249D3D5400F2B994 /* Debug */,
+				B5693206249D3D5400F2B994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5693207249D3D5400F2B994 /* Build configuration list for PBXNativeTarget "Apex Legends Sounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5693208249D3D5400F2B994 /* Debug */,
+				B5693209249D3D5400F2B994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B569320A249D3D5400F2B994 /* Build configuration list for PBXNativeTarget "Apex Legends SoundsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B569320B249D3D5400F2B994 /* Debug */,
+				B569320C249D3D5400F2B994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B569320D249D3D5400F2B994 /* Build configuration list for PBXNativeTarget "Apex Legends SoundsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B569320E249D3D5400F2B994 /* Debug */,
+				B569320F249D3D5400F2B994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B56931D5249D3D5100F2B994 /* Project object */;
+}
