@@ -17,6 +17,9 @@
 		B56931F8249D3D5400F2B994 /* Apex_Legends_SoundsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56931F7249D3D5400F2B994 /* Apex_Legends_SoundsTests.swift */; };
 		B5693203249D3D5400F2B994 /* Apex_Legends_SoundsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5693202249D3D5400F2B994 /* Apex_Legends_SoundsUITests.swift */; };
 		B5C90E65249DF1BA00EA2634 /* LegendSoundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C90E64249DF1BA00EA2634 /* LegendSoundsView.swift */; };
+		B5C90E67249E659500EA2634 /* ItemDetailMaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C90E66249E659500EA2634 /* ItemDetailMaterialView.swift */; };
+		B5C90E69249E662000EA2634 /* WeaponSoundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C90E68249E662000EA2634 /* WeaponSoundsView.swift */; };
+		B5C90E6B249E662A00EA2634 /* SystemSoundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C90E6A249E662A00EA2634 /* SystemSoundsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		B5693202249D3D5400F2B994 /* Apex_Legends_SoundsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apex_Legends_SoundsUITests.swift; sourceTree = "<group>"; };
 		B5693204249D3D5400F2B994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5C90E64249DF1BA00EA2634 /* LegendSoundsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendSoundsView.swift; sourceTree = "<group>"; };
+		B5C90E66249E659500EA2634 /* ItemDetailMaterialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailMaterialView.swift; sourceTree = "<group>"; };
+		B5C90E68249E662000EA2634 /* WeaponSoundsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponSoundsView.swift; sourceTree = "<group>"; };
+		B5C90E6A249E662A00EA2634 /* SystemSoundsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemSoundsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,9 @@
 				B56931E4249D3D5100F2B994 /* HomeView.swift */,
 				B55557A4249DD66F00472827 /* CategorizedView.swift */,
 				B5C90E64249DF1BA00EA2634 /* LegendSoundsView.swift */,
+				B5C90E66249E659500EA2634 /* ItemDetailMaterialView.swift */,
+				B5C90E68249E662000EA2634 /* WeaponSoundsView.swift */,
+				B5C90E6A249E662A00EA2634 /* SystemSoundsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -294,6 +303,9 @@
 				B56931E3249D3D5100F2B994 /* SceneDelegate.swift in Sources */,
 				B55557A5249DD66F00472827 /* CategorizedView.swift in Sources */,
 				B56931E5249D3D5100F2B994 /* HomeView.swift in Sources */,
+				B5C90E6B249E662A00EA2634 /* SystemSoundsView.swift in Sources */,
+				B5C90E67249E659500EA2634 /* ItemDetailMaterialView.swift in Sources */,
+				B5C90E69249E662000EA2634 /* WeaponSoundsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

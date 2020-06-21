@@ -22,13 +22,16 @@ struct CategoryRow: View {
             ScrollView(.horizontal, showsIndicators: false) {
                HStack(alignment: .top, spacing: 0) {
                 ForEach(self.items) { item in
-                  NavigationLink(destination: TempDetail(item: item)) {
+                  NavigationLink(destination: ItemDetailMaterialView(item: item)) {
                     CategoryRowEntry(item: item)
-                 }
+                  }.simultaneousGesture(TapGesture().onEnded({
+                    let feedback = UIImpactFeedbackGenerator(style: .medium)
+                    feedback.impactOccurred()
+                  }))
                }
              }
            }
-                       
+
            .frame(height: 185)
         }
     }

@@ -47,7 +47,7 @@ struct HomeView: View {
         Item(id: 5, category: "Legend", displayName: "Revenant"),
         Item(id: 3, category: "Legend", displayName: "Wattson"),
         Item(id: 11, category: "Legend", displayName: "Wraith"),
-        Item(id: 20, category: "Weapon", displayName: "Assault Rifle"),
+        Item(id: 20, category: "Weapon", displayName: "Rifle"),
         Item(id: 15, category: "Weapon", displayName: "SMG"),
         Item(id: 16, category: "Weapon", displayName: "LMG"),
         Item(id: 19, category: "Weapon", displayName: "Shotgun"),
