@@ -8,26 +8,36 @@
 
 import SwiftUI
 
-struct CategoryRow: View {
-    var categoryName: String
-    var items: [Item]
+struct CategorizedItem<LinkView: View>: Identifiable {
+    let id: Int
+    let name: String
+    let imageName: String
+    let linkView: () -> LinkView
+}
+
+struct CategoryRow<LinkView: View>: View {
+    let categoryName: String
+    let items: [CategorizedItem<LinkView>]
     
     var body: some View {
         VStack(alignment: .leading) {
             Text(self.categoryName)
                    .font(.headline)
-                   .padding(.leading, 15)
+                   .padding(.leading, 10)
                    .padding(.top, 5)
 
             ScrollView(.horizontal, showsIndicators: false) {
                HStack(alignment: .top, spacing: 0) {
                 ForEach(self.items) { item in
-                  NavigationLink(destination: ItemDetailMaterialView(item: item)) {
-                    CategoryRowEntry(item: item)
-                  }.simultaneousGesture(TapGesture().onEnded({
-                    let feedback = UIImpactFeedbackGenerator(style: .medium)
-                    feedback.impactOccurred()
-                  }))
+                    NavigationLink(destination: item.linkView()) {
+                    CategoryRowEntry(caption: item.name, imageName: item.imageName)
+                  }
+                    
+                  .simultaneousGesture(
+                    TapGesture().onEnded({
+                       UIImpactFeedbackGenerator(style: .medium).impactOccurred()
+                    })
+                  )
                }
              }
            }
@@ -38,16 +48,17 @@ struct CategoryRow: View {
 }
 
 struct CategoryRowEntry: View {
-    let item: Item
+    let caption: String
+    let imageName: String
     
     var body: some View {
         VStack(alignment: .leading) {
-            Image(self.item.imageName)
+            Image(self.imageName)
                 .resizable()
                 .frame(width: 125, height: 125)
                 .cornerRadius(5)
             
-            Text(item.displayName)
+            Text(self.caption)
                 .font(.caption)
         }
             
@@ -55,44 +66,27 @@ struct CategoryRowEntry: View {
     }
 }
 
-struct CategorizedView: View {
-    let items: [Item]
-    let categoryOrder: [String]
-    
-    var groupedItems: [String: [Item]] {
-        Dictionary(
-            grouping: self.items,
-            by: { $0.category }
-        )
-    }
-    
-    init(categoryOrder: [String], items: [Item]) {
-        self.items = items
-        self.categoryOrder = categoryOrder
-        
-        // To remove only extra separators below the list:
-        UITableView.appearance().tableFooterView = UIView()
-
-        // To remove all separators including the actual ones:
-        UITableView.appearance().separatorStyle = .none
-    }
-    
-    var body: some View {
-        NavigationView {
-            List {
-                ForEach(self.categoryOrder, id: \.self) { key in
-                    CategoryRow(categoryName: key, items: self.groupedItems[key]!)
-                }
-                
-                .padding(.top, 20)
-                .listRowInsets(EdgeInsets())
-            }
-            
-            .listRowInsets(EdgeInsets())
-            .navigationBarTitle(Text("Sounds"))
-        }
-    }
-}
+//struct CategorizedView: View {
+//    let items: [Item]
+//    let categoryOrder: [String]
+//
+//    var groupedItems: [String: [Item]] {
+//        Dictionary(
+//            grouping: self.items,
+//            by: { $0.category }
+//        )
+//    }
+//
+//    init(categoryOrder: [String], items: [Item]) {
+//        self.items = items
+//        self.categoryOrder = categoryOrder
+//
+//    }
+//
+//    var body: some View {
+//        T
+//    }
+//}
 
 //struct CategorizedView_Previews: PreviewProvider {
 //    static var previews: some View {

@@ -1,0 +1,186 @@
+[
+  {
+    "id": 1,
+    "name": "VK-47 Flatline",
+    "category": "rifle",
+    "ammo": {
+      "type": "heavy"
+    }
+  },
+  {
+    "id": 2,
+    "name": "G7 Scout",
+    "category": "rifle",
+    "ammo": {
+      "type": "light"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Hemlok Burst AR",
+    "category": "rifle",
+    "ammo": {
+      "type": "heavy"
+    }
+  },
+  {
+    "id": 4,
+    "name": "R-301 Carbine",
+    "category": "rifle",
+    "ammo": {
+      "type": "light"
+    }
+  },
+  {
+    "id": 5,
+    "name": "HAVOC Rifle",
+    "category": "rifle",
+    "ammo": {
+      "type": "energy"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Alternator SMG",
+    "category": "smg",
+    "ammo": {
+      "type": "light"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Prowler Burst PDW",
+    "category": "smg",
+    "ammo": {
+      "type": "heavy"
+    }
+  },
+  {
+    "id": 8,
+    "name": "R-99",
+    "category": "smg",
+    "ammo": {
+      "type": "light"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Devotion LMG",
+    "category": "lmg",
+    "ammo": {
+      "type": "special"
+    }
+  },
+  {
+    "id": 10,
+    "name": "M600 Spitfire",
+    "category": "lmg",
+    "ammo": {
+      "type": "heavy"
+    }
+  },
+  {
+    "id": 11,
+    "name": "L-STAR EMG",
+    "category": "lmg",
+    "ammo": {
+      "type": "energy"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Longbow DMR",
+    "category": "sniper",
+    "ammo": {
+      "type": "sniper"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Kraber .50-cal Sniper",
+    "category": "sniper",
+    "ammo": {
+      "type": "special"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Triple Take",
+    "category": "sniper",
+    "ammo": {
+      "type": "sniper"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Sentinel",
+    "category": "sniper",
+    "ammo": {
+      "type": "sniper"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Charge Rifle",
+    "category": "sniper",
+    "ammo": {
+      "type": "sniper"
+    }
+  },
+  {
+    "id": 17,
+    "name": "EVA-8 Auto",
+    "category": "shotgun",
+    "ammo": {
+      "type": "shotgun"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Mastiff Shotgun",
+    "category": "shotgun",
+    "ammo": {
+      "type": "shotgun"
+    }
+  },
+  {
+    "id": 19,
+    "name": "Mozambique Shotgun",
+    "category": "shotgun",
+    "ammo": {
+      "type": "shotgun"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Peacekeeper",
+    "category": "shotgun",
+    "ammo": {
+      "type": "special"
+    }
+  },
+  {
+    "id": 21,
+    "name": "RE-45 Auto",
+    "category": "pistol",
+    "ammo": {
+      "type": "light"
+    }
+  },
+  {
+    "id": 22,
+    "name": "P2020",
+    "category": "pistol",
+    "ammo": {
+      "type": "light"
+    }
+  },
+  {
+    "id": 23,
+    "name": "Wingman",
+    "category": "pistol",
+    "ammo": {
+      "type": "heavy"
+    }
+  }
+]

@@ -7,17 +7,24 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 struct LegendSoundsView: View {
-    let legend: Item
+    let legend: Legend
     
     var body: some View {
-        Text("Legend: \(self.legend.displayName)")
+        List {
+            Section(header: Text("Taunts")) {
+                PlayerView()
+                
+                Button(
+                    action: {
+                       
+                    
+                    },
+                    label: { Text("Looting your corpse") }
+                )
+            }
+        }
     }
 }
-
-//struct LegendSoundsView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        LegendSoundsView()
-//    }
-//}

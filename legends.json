@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "name": "Bangalore"
+  },
+  {
+    "id": 2,
+    "name": "Bloodhound"
+  },
+  {
+    "id": 3,
+    "name": "Caustic"
+  },
+  {
+    "id": 4,
+    "name": "Crypto"
+  },
+  {
+    "id": 5,
+    "name": "Gibraltar"
+  },
+  {
+    "id": 6,
+    "name": "Lifeline"
+  },
+  {
+    "id": 7,
+    "name": "Loba"
+  },
+  {
+    "id": 8,
+    "name": "Mirage"
+  },
+  {
+    "id": 9,
+    "name": "Octane"
+  },
+  {
+    "id": 10,
+    "name": "Pathfinder"
+  },
+  {
+    "id": 11,
+    "name": "Revenant"
+  },
+  {
+    "id": 12,
+    "name": "Wattson"
+  },
+  {
+    "id": 13,
+    "name": "Wraith"
+  }
+]
