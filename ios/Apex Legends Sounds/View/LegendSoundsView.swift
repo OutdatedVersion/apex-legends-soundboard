@@ -15,15 +15,11 @@ struct LegendSoundsView: View {
     var body: some View {
         List {
             Section(header: Text("Taunts")) {
-                PlayerView()
-                
-                Button(
-                    action: {
-                       
-                    
-                    },
-                    label: { Text("Looting your corpse") }
-                )
+                ForEach(self.legend.taunts) { taunt in
+                    NavigationLink(destination: TauntDetailsView(taunt: taunt)) {
+                        Text(taunt.group)
+                    }
+                }
             }
         }
     }

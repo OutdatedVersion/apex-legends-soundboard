@@ -2,8 +2,7 @@
   "data" : [
     {
       "filename" : "legends.json",
-      "idiom" : "universal",
-      "universal-type-identifier" : ""
+      "idiom" : "universal"
     }
   ],
   "info" : {

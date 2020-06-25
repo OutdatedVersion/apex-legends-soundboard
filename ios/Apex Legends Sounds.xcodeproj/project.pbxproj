@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B54827D424A1C1C900AB6BF9 /* Broadcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54827D324A1C1C900AB6BF9 /* Broadcast.swift */; };
 		B54827D624A1C1F200AB6BF9 /* BroadcastStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54827D524A1C1F200AB6BF9 /* BroadcastStore.swift */; };
-		B54827D824A1CFEE00AB6BF9 /* AudioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54827D724A1CFEE00AB6BF9 /* AudioPlayerView.swift */; };
 		B54EDFF624A17E1D00B3640B /* Legend.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54EDFF524A17E1D00B3640B /* Legend.swift */; };
 		B54EDFF824A1812E00B3640B /* LegendStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54EDFF724A1812E00B3640B /* LegendStore.swift */; };
 		B54EDFFA24A1959600B3640B /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54EDFF924A1959600B3640B /* Weapon.swift */; };
@@ -23,10 +22,12 @@
 		B56931ED249D3D5300F2B994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56931EB249D3D5300F2B994 /* LaunchScreen.storyboard */; };
 		B56931F8249D3D5400F2B994 /* Apex_Legends_SoundsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56931F7249D3D5400F2B994 /* Apex_Legends_SoundsTests.swift */; };
 		B5693203249D3D5400F2B994 /* Apex_Legends_SoundsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5693202249D3D5400F2B994 /* Apex_Legends_SoundsUITests.swift */; };
+		B582BA2D24A46FE5004F4F93 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582BA2C24A46FE5004F4F93 /* AudioPlayer.swift */; };
 		B5C704AB24A1A6BC006F9CAB /* WeaponDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C704AA24A1A6BC006F9CAB /* WeaponDetailView.swift */; };
 		B5C90E65249DF1BA00EA2634 /* LegendSoundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C90E64249DF1BA00EA2634 /* LegendSoundsView.swift */; };
 		B5C90E69249E662000EA2634 /* WeaponListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C90E68249E662000EA2634 /* WeaponListView.swift */; };
 		B5C90E6B249E662A00EA2634 /* BroadcastDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C90E6A249E662A00EA2634 /* BroadcastDetailView.swift */; };
+		B5F0395824A472840079886A /* TauntDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F0395724A472840079886A /* TauntDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +50,6 @@
 /* Begin PBXFileReference section */
 		B54827D324A1C1C900AB6BF9 /* Broadcast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Broadcast.swift; sourceTree = "<group>"; };
 		B54827D524A1C1F200AB6BF9 /* BroadcastStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastStore.swift; sourceTree = "<group>"; };
-		B54827D724A1CFEE00AB6BF9 /* AudioPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerView.swift; sourceTree = "<group>"; };
 		B54EDFF524A17E1D00B3640B /* Legend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Legend.swift; sourceTree = "<group>"; };
 		B54EDFF724A1812E00B3640B /* LegendStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendStore.swift; sourceTree = "<group>"; };
 		B54EDFF924A1959600B3640B /* Weapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
@@ -69,10 +69,12 @@
 		B56931FE249D3D5400F2B994 /* Apex Legends SoundsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apex Legends SoundsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5693202249D3D5400F2B994 /* Apex_Legends_SoundsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apex_Legends_SoundsUITests.swift; sourceTree = "<group>"; };
 		B5693204249D3D5400F2B994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B582BA2C24A46FE5004F4F93 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		B5C704AA24A1A6BC006F9CAB /* WeaponDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponDetailView.swift; sourceTree = "<group>"; };
 		B5C90E64249DF1BA00EA2634 /* LegendSoundsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendSoundsView.swift; sourceTree = "<group>"; };
 		B5C90E68249E662000EA2634 /* WeaponListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponListView.swift; sourceTree = "<group>"; };
 		B5C90E6A249E662A00EA2634 /* BroadcastDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastDetailView.swift; sourceTree = "<group>"; };
+		B5F0395724A472840079886A /* TauntDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TauntDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +124,7 @@
 				B5C90E68249E662000EA2634 /* WeaponListView.swift */,
 				B5C90E6A249E662A00EA2634 /* BroadcastDetailView.swift */,
 				B5C704AA24A1A6BC006F9CAB /* WeaponDetailView.swift */,
-				B54827D724A1CFEE00AB6BF9 /* AudioPlayerView.swift */,
+				B5F0395724A472840079886A /* TauntDetailsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -150,6 +152,7 @@
 		B56931DF249D3D5100F2B994 /* Apex Legends Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				B582BA2C24A46FE5004F4F93 /* AudioPlayer.swift */,
 				B55557A7249DD6BC00472827 /* View */,
 				B55557A6249DD6B200472827 /* Model */,
 				B56931E0249D3D5100F2B994 /* AppDelegate.swift */,
@@ -330,10 +333,11 @@
 				B56931E5249D3D5100F2B994 /* HomeView.swift in Sources */,
 				B54EDFF824A1812E00B3640B /* LegendStore.swift in Sources */,
 				B5C704AB24A1A6BC006F9CAB /* WeaponDetailView.swift in Sources */,
+				B582BA2D24A46FE5004F4F93 /* AudioPlayer.swift in Sources */,
 				B5C90E6B249E662A00EA2634 /* BroadcastDetailView.swift in Sources */,
 				B5C90E69249E662000EA2634 /* WeaponListView.swift in Sources */,
+				B5F0395824A472840079886A /* TauntDetailsView.swift in Sources */,
 				B54827D624A1C1F200AB6BF9 /* BroadcastStore.swift in Sources */,
-				B54827D824A1CFEE00AB6BF9 /* AudioPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +503,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Apex Legends Sounds/Preview Content\"";
 				DEVELOPMENT_TEAM = 3Q6TF2ZU97;
 				ENABLE_PREVIEWS = YES;
@@ -507,7 +512,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.outdatedversion.Apex-Legends-Sounds";
 				PRODUCT_NAME = "Apex Legends Soundboard";
 				SWIFT_VERSION = 5.0;
@@ -520,6 +525,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Apex Legends Sounds/Preview Content\"";
 				DEVELOPMENT_TEAM = 3Q6TF2ZU97;
 				ENABLE_PREVIEWS = YES;
@@ -528,7 +534,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.outdatedversion.Apex-Legends-Sounds";
 				PRODUCT_NAME = "Apex Legends Soundboard";
 				SWIFT_VERSION = 5.0;
