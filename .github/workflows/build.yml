@@ -1,0 +1,16 @@
+name: Build
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: docker/build-push-action@v1
+        with:
+          username: OutdatedVersion
+          password: ${{ secrets.GITHUB_TOKEN }}
+          registry: docker.pkg.github.com
+          repository: outdatedversion/apex-legends-soundboard/audio-asset-server
+          tag_with_sha: true
+          tag_with_ref: true
+          path: audio
