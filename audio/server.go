@@ -11,6 +11,7 @@ type justFilesFilesystem struct {
 }
 
 func (fs justFilesFilesystem) Open(name string) (http.File, error) {
+	log.Println("Opening " + name)
 	f, err := fs.Fs.Open(name)
 
 	if err != nil {
