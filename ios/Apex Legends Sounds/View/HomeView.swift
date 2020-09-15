@@ -8,27 +8,8 @@
 
 import SwiftUI
 
-//enum HomeCategory: String {
-//    case legend = "Legend"
-//    case weapon = "Weapon"
-//    case system = "System"
-//}
-
-//struct TempDetail: View {
-//    let item: Item
-//
-//    var body: some View {
-//        Text("ID \(self.item.id)\n\(self.item.category): \(self.item.displayName)")
-//    }
-//}
 
 struct HomeView: View {
-//    let items: [Item] = [W
-//        Item(id: 22, category: "System", displayName: "Care Package"),
-//        Item(id: 14, category: "System", displayName: "Kill Leader"),
-//        Item(id: 21, category: "System", displayName: "Ring Closing"),
-//    ]
-    
     let legendStore = LegendStore()
     let weaponStore = WeaponStore()
     let broadcastStore = BroadcastStore()
@@ -37,6 +18,8 @@ struct HomeView: View {
         self.legendStore.load()
         self.weaponStore.load()
         self.broadcastStore.load()
+        
+        AudioPlayer.instance.create()
         
         // To remove only extra separators below the list:
         UITableView.appearance().tableFooterView = UIView()
