@@ -19,7 +19,7 @@ struct HomeView: View {
         self.weaponStore.load()
         self.broadcastStore.load()
         
-        AudioPlayer.instance.create()
+        AudioPlayer.instance.setPlayerOptions()
         
         // To remove only extra separators below the list:
         UITableView.appearance().tableFooterView = UIView()
@@ -43,12 +43,19 @@ struct HomeView: View {
     
     
     var weaponsGroupedByCategory: [String: [Weapon]] {
-        return Dictionary(grouping: self.weaponStore.weapons, by: { $0.category.rawValue })
+        return Dictionary(
+            grouping: self.weaponStore.weapons,
+            by: { $0.category.rawValue }
+        )
     }
     
     var weaponsMappedToItem: [CategorizedItem<WeaponListView>] {
         return self.weaponsGroupedByCategory
-            .enumerated().map { (index, entry) in
+            .enumerated()
+            .sorted {
+                return $0.element.value[0].category.order < $1.element.value[0].category.order
+            }
+            .map { (index, entry) in
                 return CategorizedItem(
                     id: index,
                     name: entry.value[0].category.displayName,
@@ -58,20 +65,17 @@ struct HomeView: View {
                    }
             )
         }
-        .sorted {
-            return $0.name.localizedCaseInsensitiveCompare($1.name) == .orderedAscending
-        }
     }
     
      var broadcastsMappedToItem: [CategorizedItem<BroadcastDetailView>] {
            return self.broadcastStore.broadcasts.map { broadcast in
                CategorizedItem(
-                   id: broadcast.id,
-                   name: broadcast.name,
-                   imageName: broadcast.broadcastPreviewImageName,
-                   linkView: {
-                      BroadcastDetailView(broadcast: broadcast)
-                  }
+                 id: broadcast.id,
+                 name: broadcast.name,
+                 imageName: broadcast.broadcastPreviewImageName,
+                 linkView: {
+                    BroadcastDetailView(broadcast: broadcast)
+                 }
                )
            }
        }

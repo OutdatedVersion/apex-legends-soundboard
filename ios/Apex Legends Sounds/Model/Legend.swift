@@ -36,6 +36,6 @@ struct AudioFile {
     let digest: String
     
     var url: URL {
-        return URL(string: "https://outdatedversion.com/apex-legends-soundboard/asset/\(self.digest)")! 
+        return URL(string: "https://apexsounds.app/asset/\(self.digest)")!
     }
 }

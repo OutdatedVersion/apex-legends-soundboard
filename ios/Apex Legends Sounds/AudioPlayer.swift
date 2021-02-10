@@ -13,15 +13,18 @@ class AudioPlayer {
     public static var instance = AudioPlayer()
     var player = AVPlayer()
 
-    func create() {
-        player = AVPlayer()
-        
-        self.setPlayerOptions()
-    }
-
     func setPlayerOptions() {
         do {
-            try AVAudioSession.sharedInstance().setCategory(.playback, mode: AVAudioSession.Mode.default, options: [.allowBluetooth])
+            try AVAudioSession.sharedInstance().setCategory(
+                // Audio is critical to this app so we should be
+                // allowed to play when the device is silenced
+                .playback,
+                mode: AVAudioSession.Mode.default,
+                // We play short lived audio clips so ducking other
+                // audio on the device while they play seems ok.
+                options: [.duckOthers]
+            )
+            
             print("Set audio playback settings")
             try AVAudioSession.sharedInstance().setActive(true)
             print("Set active audio session")

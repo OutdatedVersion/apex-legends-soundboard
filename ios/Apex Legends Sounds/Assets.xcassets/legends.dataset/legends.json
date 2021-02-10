@@ -5377,8 +5377,9 @@
         "title": "",
         "group": "diag_mp_lifeline_glad_taunt_19",
         "transcription": {
-          "confidence": 73.74411821365356,
-          "text": "the done just call me laugh line because I save a lot"
+          "confidence": 100,
+          "text": "They don't just call me Lifeline because I save a life",
+          "human": true
         },
         "files": [
           {
@@ -11975,5 +11976,10 @@
     ],
     "id": 13,
     "name": "Wraith"
+  },
+  {
+    "taunts": [],
+    "id": 14,
+    "name": "Rampart"
   }
 ]

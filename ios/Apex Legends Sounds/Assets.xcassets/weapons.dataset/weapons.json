@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "VK-47 Flatline",
+    "name": "Flatline",
     "category": "rifle",
     "ammo": {
       "type": "heavy"
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "name": "Hemlok Burst AR",
+    "name": "Hemlok",
     "category": "rifle",
     "ammo": {
       "type": "heavy"
@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "name": "R-301 Carbine",
+    "name": "R-301",
     "category": "rifle",
     "ammo": {
       "type": "light"
@@ -33,7 +33,7 @@
   },
   {
     "id": 5,
-    "name": "HAVOC Rifle",
+    "name": "HAVOC",
     "category": "rifle",
     "ammo": {
       "type": "energy"
@@ -41,7 +41,7 @@
   },
   {
     "id": 6,
-    "name": "Alternator SMG",
+    "name": "Alternator",
     "category": "smg",
     "ammo": {
       "type": "light"
@@ -49,7 +49,7 @@
   },
   {
     "id": 7,
-    "name": "Prowler Burst PDW",
+    "name": "Prowler",
     "category": "smg",
     "ammo": {
       "type": "heavy"
@@ -65,7 +65,7 @@
   },
   {
     "id": 9,
-    "name": "Devotion LMG",
+    "name": "Devotion",
     "category": "lmg",
     "ammo": {
       "type": "special"
@@ -81,7 +81,7 @@
   },
   {
     "id": 11,
-    "name": "L-STAR EMG",
+    "name": "L-STAR",
     "category": "lmg",
     "ammo": {
       "type": "energy"
@@ -89,7 +89,7 @@
   },
   {
     "id": 12,
-    "name": "Longbow DMR",
+    "name": "Longbow",
     "category": "sniper",
     "ammo": {
       "type": "sniper"
@@ -97,7 +97,7 @@
   },
   {
     "id": 13,
-    "name": "Kraber .50-cal Sniper",
+    "name": "Kraber",
     "category": "sniper",
     "ammo": {
       "type": "special"
@@ -129,7 +129,7 @@
   },
   {
     "id": 17,
-    "name": "EVA-8 Auto",
+    "name": "EVA-8",
     "category": "shotgun",
     "ammo": {
       "type": "shotgun"
@@ -137,7 +137,7 @@
   },
   {
     "id": 18,
-    "name": "Mastiff Shotgun",
+    "name": "Mastiff",
     "category": "shotgun",
     "ammo": {
       "type": "shotgun"
@@ -145,7 +145,7 @@
   },
   {
     "id": 19,
-    "name": "Mozambique Shotgun",
+    "name": "Mozambique",
     "category": "shotgun",
     "ammo": {
       "type": "shotgun"
@@ -161,7 +161,7 @@
   },
   {
     "id": 21,
-    "name": "RE-45 Auto",
+    "name": "RE-45",
     "category": "pistol",
     "ammo": {
       "type": "light"
@@ -181,6 +181,30 @@
     "category": "pistol",
     "ammo": {
       "type": "heavy"
+    }
+  },
+  {
+    "id": 24,
+    "name": "Grenade",
+    "category": "throwable",
+    "ammo": {
+      "type": "throwable"
+    }
+  },
+  {
+    "id": 25,
+    "name": "Arc Star",
+    "category": "throwable",
+    "ammo": {
+      "type": "throwable"
+    }
+  },
+  {
+    "id": 26,
+    "name": "Thermite",
+    "category": "throwable",
+    "ammo": {
+      "type": "throwable"
     }
   }
 ]

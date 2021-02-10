@@ -15,6 +15,7 @@ enum WeaponCategory: String {
     case sniper = "sniper"
     case shotgun = "shotgun"
     case pistol = "pistol"
+    case throwable = "throwable"
     case unknown = "💩"
     
     var weaponPreviewImageName: String {
@@ -35,8 +36,31 @@ enum WeaponCategory: String {
             return "Shotgun"
         case .pistol:
             return "Pistol"
+        case .throwable:
+            return "Throwable"
         case .unknown:
             return "💩"
+        }
+    }
+    
+    var order: Int {
+        switch self {
+        case .rifle:
+            return 1
+        case .smg:
+            return 2
+        case .lmg:
+            return 3
+        case .sniper:
+            return 4
+        case .shotgun:
+            return 5
+        case .pistol:
+            return 6
+        case .throwable:
+            return 7
+        case .unknown:
+            return 8
         }
     }
 }
